@@ -1,5 +1,11 @@
  # LEARN YOU THE NODE.JS FOR MUCH WIN!
 
+ ## Learning Resources 
+ http://callbackhell.com/ (Must Read)
+ https://github.com/maxogden/art-of-node
+ https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
+
+
  ## MY FIRST I/O! (Exercise 3 of 13)
  ─────────────────────────────────────────────────────────────────────────────
  ### HINTS
@@ -81,3 +87,24 @@
   events will emit Strings rather than the standard Node Buffer objects
   which you have to explicitly convert to Strings.
 
+## Exercise 9
+## HINTS
+
+  Don't expect these three servers to play nicely! They are not going to
+  give you complete responses in the order you hope, so you can't naively
+  just print the output as you get it because they will be out of order.
+
+  You will need to queue the results and keep track of how many of the URLs
+  have returned their entire contents. Only once you have them all, you can
+  print the data to the console.
+
+  Counting callbacks is one of the fundamental ways of managing async in
+  Node. Rather than doing it manually, you may find it more convenient to
+  rely on [`async`](https://www.npmjs.com/package/async) or
+  [`run-parallel`](https://www.npmjs.com/package/run-parallel). But for this
+  exercise, do it without that.
+
+#### References taken
+https://github.com/nodeschool/discussions/issues/203
+https://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
+https://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop
