@@ -1,9 +1,9 @@
  # LEARN YOU THE NODE.JS FOR MUCH WIN!
 
  ## Learning Resources 
- http://callbackhell.com/ (Must Read)
- https://github.com/maxogden/art-of-node
- https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
+ http://callbackhell.com/ (Must Read)  
+ https://github.com/maxogden/art-of-node  
+ https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript  
 
 
  ## MY FIRST I/O! (Exercise 3 of 13)
