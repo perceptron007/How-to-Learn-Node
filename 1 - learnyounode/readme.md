@@ -105,6 +105,6 @@
   exercise, do it without that.
 
 #### References taken
-https://github.com/nodeschool/discussions/issues/203
-https://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
-https://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop
+https://github.com/nodeschool/discussions/issues/203  
+https://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example  
+https://stackoverflow.com/questions/11488014/asynchronous-process-inside-a-javascript-for-loop  
